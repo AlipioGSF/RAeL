@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="max-w-screen relative overflow-x-hidden">
+    <!-- NAVBAR-->
+    <nav class="bg-white w-screen h-20 flex fixed shadow-xl">
+        <div class=" w-9/12 mx-auto flex justify-between ">
+            <div class=" my-auto font-light text-6xl h-3/4 w-40 flex justify-center">RA<span class="text-xg flex align-bottom  font-thin ">&</span>L</div>
+            <ul class="flex my-auto justify-between text-2xl font-thin">
+                <li class="mr-3" ><a href="#cardapio" class="linha">Cardápio</a></li>
+                <li class="mr-3" ><a href="#reserva" class="linha">Reservar</a></li>
+                <li><a href="#contato" class="linha">Contato</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+    <!-- INICIO-->
+    <main class="w-screen h-screen flex bg-orange-500 ">
+        <div class="w-9/12 h-3/5 bg-yellow-50  flex mx-auto my-auto shadow-lg rounded-xl">
+            <div class="w-4/5 p-2 bg-red-900 carrossel rounded-l-xl ">
+            </div>
+            <div class="p-12 flex flex-col justify-around" >
+                <h1 class="text-6xl font-extralight ">Restaurante <br> Abreu & Lima</h1>
+                <p class="text-4xl w-4/5 font-thin">Desfrute de saborosos pratos <i>Gourmert</i> preparados pelo famoso <i>Chef Wellington</i></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- CARDAPIO-->
+    <section id="cardapio" class="w-screen min-h-screen py-24 text-white flex flex-col bg-colorPallet-22">
+        <h1 class="mx-auto text-6xl font-extralight" >Cardápio</h1>
+        
+        <!-- PRATOS -->
+        <div class=" flex flex-col mx-auto bg-white shadow-xl shadow-colorPallet-12 rounded-xl w-9/12 mt-8 h-10/12 py-10">
+            <h2 class="w-9/12 font-light text-black text-4xl pl-16 mb-8" >Pratos</h2>
+            <div class="pratos grid grid-cols-3 grid-rows-2 gap-7 align-middle justify-items-center">
+                <div class="w-4/6 h-72 p-5 bg-colorPallet-20 rounded-xl flex flex-col shadow-black shadow-lg cardBg">
+                    <div class="prato1 fotoPrato ajusteBg"></div>
+                    <div class="textoCard">Lasanha</div>
+                </div>
+                <div class="w-4/6 h-72 p-5 bg-colorPallet-20 rounded-xl flex flex-col shadow-black shadow-lg cardBg">
+                    <div class="prato2 fotoPrato ajusteBg"></div>
+                    <div class="textoCard">Camarão</div>
+                </div>
+                <div class="w-4/6 h-72 p-5 bg-colorPallet-20 rounded-xl flex flex-col shadow-black shadow-lg cardBg">
+                    <div class="prato3 fotoPrato ajusteBg"></div>
+                    <div class="textoCard">Costela</div>
+                </div>
+                <div class="w-4/6 h-72 p-5 bg-colorPallet-20 rounded-xl flex flex-col shadow-black shadow-lg cardBg">
+                    <div class="prato4 fotoPrato ajusteBg"></div>
+                    <div class="textoCard">Cuscuz</div>
+                </div>
+                <div class="w-4/6 h-72 p-5 bg-colorPallet-20 rounded-xl flex flex-col shadow-black shadow-lg cardBg">
+                    <div class="prato5 fotoPrato ajusteBg"></div>
+                    <div class="textoCard">Filé</div>
+                </div>
+                <div class="w-4/6 h-72 p-5 bg-colorPallet-20 rounded-xl flex flex-col shadow-black shadow-lg cardBg">
+                    <div class="prato6 fotoPrato ajusteBg"></div>
+                    <div class="textoCard">Peixe</div>
+                </div>
+                    
+            </div>
+        </div>
+
+        <!-- VINHOS -->
+        <div class=" flex flex-col mx-auto bg-white shadow-xl shadow-colorPallet-12 rounded-xl w-9/12 mt-8 h-10/12 py-10">
+            <h2 class="w-9/12 font-light text-black text-4xl pl-16 mb-8" >Vinhos</h2>
+            <div class=" grid grid-cols-3 grid-rows-2 gap-7 align-middle justify-items-center">
+                <div class="card">
+                    <div class=" fotoVinho ajusteBg vinho1"></div>
+                    <div class="textoCard">Vinho Suave</div>
+                </div>
+                <div class="card">
+                    <div class="fotoVinho ajusteBg vinho2"></div>
+                    <div class="textoCard">Vinho Seco</div>
+                </div>
+                <div class="card">
+                    <div class="fotoVinho ajusteBg vinho3"></div>
+                    <div class="textoCard">Vinho Bordô</div>
+                </div>
+                <div class="card">
+                    <div class="fotoVinho ajusteBg vinho4"></div>
+                    <div class="textoCard">Vinho Rosé</div>
+                </div>
+                <div class="card">
+                    <div class="fotoVinho ajusteBg vinho5"></div>
+                    <div class="textoCard">Vinho Branco</div>
+                </div>
+                <div class="card">
+                    <div class="fotoVinho ajusteBg vinho6"></div>
+                    <div class="textoCard">Vinho Licoroso</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reserva" class="w-screen min-h-screen py-24 text-white flex flex-col bg-colorPallet-20">
+        <h1 class="mx-auto text-6xl font-extralight">Faça já a sua reserva</h1>
+        <div class="w-9/12 h-96 bg-yellow-50 flex mx-auto my-auto shadow-lg rounded-xl">
+            <div class="w-2/5 h-full p-2 bg-red-900 rounded-l-xl reservaBg"></div>
+            <div class="w-4/6 h-full p-12 flex flex-col justify-around" >
+                <h1 class="text-4xl text-black font-extralight ">Um lugar especial aguardando você e sua familia</h1>
+                <p class="text-2xl text-black w-full font-thin">Reserve agora mesmo ligando para: 0800 4002 8922</p>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="bg-black w-screen h-48 py-16 px-24 text-white">
+        <h2 class="text-xl">Contato</h2>
+        <p class="flex flex-col">
+            <span>emaildorestaurante@contato.com</span>
+            <span>(81)9 4002-8922</span>
+            <span><address>Rua dos Bobos, 000</address></span>
+        </p>
+    </section>
+</body>
+</html>

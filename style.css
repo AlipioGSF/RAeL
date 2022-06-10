@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.carrossel{
+    animation: imgCar 30s infinite backwards;
+    background-size: 500px;
+    background-position-x: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.linha:hover{
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+
+@keyframes imgCar{
+    0%{
+        background-image: url(/pratos/1.png);
+    }
+    30%{
+        background-image: url(/pratos/2.png);
+    }
+    60%{
+        background-image: url(/pratos/4.png);
+    }
+    80%{
+        background-image: url(/pratos/6.png);
+    }
+    100%{
+        background-image: url(/pratos/3.png);
+    }
+}
+
+
+.card{
+    @apply w-4/6 h-80 p-5 bg-colorPallet-20 rounded-xl flex flex-col shadow-black shadow-lg cardBg
+}
+
+.cardBg{
+    background-image: url(https://www.decorfacil.com/wp-content/uploads/2018/09/20180917marrom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fotoPrato{
+    @apply w-full h-36  border-4 border-white rounded-xl
+}
+
+.fotoVinho{
+    @apply w-3/6 h-48 mx-auto border-4 border-white rounded-xl
+}
+
+
+.ajusteBg{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.textoCard{
+    @apply italic text-2xl break-words text-center my-auto
+}
+
+
+.prato1{
+    background-image: url(/pratos/1.png);
+}
+.prato2{
+    background-image: url(/pratos/2.png);
+}
+.prato3{
+    background-image: url(/pratos/3.png);
+}
+.prato4{
+    background-image: url(/pratos/4.png);
+}
+.prato5{
+    background-image: url(/pratos/5.png);
+}
+.prato6{
+    background-image: url(/pratos/6.png);
+}
+
+
+
+.vinho1{
+    background-image: url(/vinhos/quinta-do-morgado-tinto-suave-750ml.jpg);
+    background-size: 195px;
+}
+.vinho2{
+    background-image: url(/vinhos/vinho-seco.jpg);
+    background-size: 185px;
+
+}
+.vinho3{
+    background-image: url(/vinhos/bordo.jpg);
+    background-size: 100px;
+
+}
+.vinho4{
+    background-image: url(/vinhos/vinho-quinta-do-morgado-rose-suave-750ml-7896037913245_4.jpg);
+    background-size: 195px;
+}
+.vinho5{
+    background-image: url(/vinhos/quinta-do-morgado-branco-suave-750ml.jpg);
+    background-size: 185px;
+}
+.vinho6{
+    background-image: url(/vinhos/licoroso.jpg);
+    background-size: 184px;
+}
+
+.reservaBg{
+    background-image: url(/vinhos/restaurante-reserva.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+}
+
+.logo{
+    background-image: url(/vinhos/logo.png);
+    background-position: center;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
